@@ -1,0 +1,19 @@
+{
+    "name": "pedrofreitas/highbet",
+    "description": "Projeto da Aula de Programção para Internet do Curso de GTI na Fatec Jahu",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Mussio de Freitas",
+            "email": "pedro.freitas22@fatec.sp.gov.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
