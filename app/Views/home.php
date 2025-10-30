@@ -6,10 +6,182 @@
     <title>HighBet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sora:wght@100..800&display=swap" rel="stylesheet" />
 
-</head>
+  </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+  <section id="home">
+    <div class="superinfo-bg">
+      <div class="superinfo">
+        <p>Seg / Sab - 8h às 18h</p>
+        <p href="tel:1436214587">(14) 3621-4587</p>
+        <p>Rua XV de Novembro, 250 – Centro, Jaú – SP</p>
+      </div>
+    </div>
+    </section>
+    
+    <header class="menu-bg">
+      <div class="menu">
+        <div class="menu-logo">
+          <a href="#">Mundo do Queijo</a>
+        </div>
+        <nav class="menu-nav">
+           <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quemsomos">Quem Somos</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+           </ul>
+         </nav>
+        </div>
+     </header>
+
+     <section class="tudo">
+    <h1 class="titulo">
+      Bem-vindo ao Mundo do Queijo<br />Descubra sabores que contam histórias
+    </h1>
+
+    <section class="quemsomos" id="quemsomos">
+      <div class="quemsomos-info">
+        <h1>Quem Somos</h1>
+        <p>
+          No Mundo do Queijo, somos apaixonados por sabores, tradições e
+          histórias que nascem de cada pedaço de queijo. Acreditamos que esse
+          alimento vai muito além da mesa: ele representa cultura, dedicação e
+          momentos especiais que merecem ser compartilhados.
+        </p>
+        <p>
+          Nossa missão é levar até você conteúdos que inspiram — desde
+          curiosidades e harmonizações até dicas práticas e novidades do
+          universo queijeiro. Mais do que um blog, queremos ser um ponto de
+          encontro para todos que amam descobrir e saborear o melhor do queijo.
+          🧀✨
+        </p>
+      </div>
+      <div class="quemsomos-img">
+        <img src="img/queijos.png" alt="Imagem de Queijos" />
+      </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h1>Nossos Produtos</h1>
+        <div class="produtos-container">
+            <div class="produtos-item brie">
+              <h2>Brie</h2>
+              <img src="img/brie.webp" alt="Queijo Brie" />
+            </div>
+            <div class="produtos-item emmental">
+              <h2>Emmental</h2>
+              <img src="img/emmental.webp" alt="Queijo Emmental" />
+            </div>
+            <div class="produtos-item gorgonzola">
+              <h2>Gorgonzola</h2>
+              <img src="img/gorgonzola.jpg" alt="Queijo Gorgonzola" />
+            </div>
+        </div>
+    </section>
+
+    <h1 style="text-align: center; background: #333333; color:#FFFFFF; padding-top: 20px;">Tipos de Queijo</h1>
+    <section class="tipos" id="tipos">
+      <div class="tipos-item">
+        <h2>Tradicionais</h2>
+        <span>🏡</span>
+          <ul>
+            <li>Queijos mais comuns do dia a dia, fáceis de encontrar e com sabor familiar.</li>
+            <li>Mussarela</li>
+            <li>Queijo Prato</li>
+            <li>Parmesão</li>
+          </ul>
+          <a href="#">Conferir</a>
+        </div>
+      </div>
+
+      <div class="tipos-item">
+        <h2>Artesanais</h2>
+        <span>🧑‍🌾</span>
+          <ul>
+            <li>Produzidos em pequenas propriedades, com técnicas tradicionais e muito sabor.</li>
+            <li>Queijo Minas Artesanal</li>
+            <li>Canastra</li>
+            <li>Colonial</li>
+            <li>Serro</li>
+          </ul>
+          <a href="#">Conferir</a>
+        </div>
+      </div>
+
+      <div class="tipos-item">
+        <h2>Importados</h2>
+        <span>🌍</span>
+          <ul>
+            <li>Vindos de outros países, famosos pela qualidade e variedade de sabores.</li>
+            <li>Brie (França)</li>
+            <li>Gorgonzola (Itália)</li>
+            <li>Emmental (Suíça)</li>
+            <li>Cheddar (Inglaterra)</li>
+            <li>Roquefort (França)</li>
+          </ul>
+          <a href="#">Conferir</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="qualidade" id="qualidade">
+      <div class="qualidade-item">
+        <h2>Variedade</h2>
+        <p>Oferecemos diferentes tipos de queijo: frescos, maturados, artesanais, importados e nacionais. Assim atendemos desde quem gosta de sabores suaves até quem prefere opções mais intensas e exóticas.</p>
+      </div>
+
+      <div class="qualidade-item">
+        <h2>Qualidade</h2>
+        <p>Trabalhamos apenas com produtores confiáveis, priorizando queijos com boa procedência, técnicas de produção adequadas e conservação correta para garantir sabor e segurança.</p>
+      </div>
+
+      <div class="qualidade-item">
+        <h2>Atendimento</h2>
+        <p>Nossa equipe é treinada para orientar clientes leigos e entusiastas: explicamos características, indicamos usos culinários, ensinamos a conservar e sugerimos combinações e harmonizações.</p>
+      </div>
+
+      <div class="qualidade-item">
+        <h2>Degustações</h2>
+        <p>Oferecemos degustações para que o cliente prove antes de comprar — especialmente em queijos artesanais ou importados — tornando a escolha mais segura e prazerosa.</p>
+      </div>
+
+      <div class="qualidade-item">
+        <h2>Ambiente</h2>
+        <p>Loja organizada, limpa e climatizada, com vitrines e embalagens adequadas para conservar aromas e texturas. No e-commerce, garantimos fotos, descrições claras e embalagens seguras para entrega.</p>
+      </div>
+
+      <div class="qualidade-item">
+        <h2>Preços Justos</h2>
+        <p>Preços compatíveis com a qualidade e o processo (artesanal ou importado) e informações claras sobre peso, validade e forma de armazenamento — sem surpresas na hora da compra.</p>
+      </div>
+    </section>
+
+    </section>
+
+    <section class="contato">
+      <div class="contato-info">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco para mais informações sobre nossos produtos, preços e serviços.</p>
+      </div>
+      <form class="contato-form">
+        <!--<input type="text" placeholder="Nome" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Telefone" required /> -->
+        <textarea placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+  
+      
+    <footer class="footer">
+      <p>&copy; 2024 Mundo do Queijo. Todos os direitos reservados.</p>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   
     <script src="/js/script.js"></script>
