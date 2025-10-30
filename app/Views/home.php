@@ -62,7 +62,7 @@
         </p>
       </div>
       <div class="quemsomos-img">
-        <img src="img/queijos.png" alt="Imagem de Queijos" />
+        <img src="/imgs/queijos.png" alt="Imagem de Queijos" />
       </div>
     </section>
 
@@ -71,15 +71,15 @@
         <div class="produtos-container">
             <div class="produtos-item brie">
               <h2>Brie</h2>
-              <img src="img/brie.webp" alt="Queijo Brie" />
+              <img src="/imgs/brie.webp" alt="Queijo Brie" />
             </div>
             <div class="produtos-item emmental">
               <h2>Emmental</h2>
-              <img src="img/emmental.webp" alt="Queijo Emmental" />
+              <img src="/imgs/emmental.webp" alt="Queijo Emmental" />
             </div>
             <div class="produtos-item gorgonzola">
               <h2>Gorgonzola</h2>
-              <img src="img/gorgonzola.jpg" alt="Queijo Gorgonzola" />
+              <img src="/imgs/gorgonzola.jpg" alt="Queijo Gorgonzola" />
             </div>
         </div>
     </section>
